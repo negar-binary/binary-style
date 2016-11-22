@@ -125,11 +125,11 @@ header,
     border-bottom: 4px solid $secondaryBrandColor;
     background: $primaryBrandColor;
 }
-#header a {
+#header a, .header a {
   color: $contentInverseColor;
   text-decoration: none;
 }
-#header li.active a {
+#header li.active a, .header li.active a {
   color: $secondaryBrandColor;
 }
 //footer rules
@@ -137,4 +137,7 @@ header,
   font-size: $FONT_SIZE_S;
   font-weight: 400;
   color: $contentInverseColor;
+}
+.invisible {
+    display: none !important;
 }
